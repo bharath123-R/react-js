@@ -1,0 +1,25 @@
+.h1tag{
+    text-align: center;
+    color: aqua;
+    background-color: black;
+    padding: 10px;
+    margin: 20px;
+    font-family: serif;
+    margin-top: 0px;
+}
+.list{
+
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    color: blue;
+}
+.btm{
+    background-color: blue;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
