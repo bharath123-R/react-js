@@ -10,7 +10,7 @@ export default function RegisterPage() {
             <div className="page">
 
                 <div className="regleft">
-                    <img src="Registerpage/gow.webp" alt="leftpage" />
+                    <img src="https://wallpaperaccess.com/full/806403.jpg" alt="leftpage" />
                 </div>
 
 
@@ -42,11 +42,11 @@ export default function RegisterPage() {
                                 <FaEyeSlash className='icon1' />
                             </div>
                             <label className='lorem' >
-                                <input type="checkbox" name='terms'  />
+                                <input type="checkbox" name='terms' />
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, ducimus.
                             </label> <br />
                             <div className="button-box">
-                            <button className="btn1">Submit</button>
+                                <button className="btn1">Submit</button>
                             </div>
                         </div>
 
@@ -57,14 +57,14 @@ export default function RegisterPage() {
                     <div className="social1">
                         <div className="logo1">
                             <FaFacebookF />
-                            
+
                         </div>
                         <div className="logo1"><FaGoogle /></div>
                     </div>
 
                     <div>
                         <h4>Already have an Account? <span className='Login-button'><Link to="/">Login </Link></span></h4>
-                        
+
                     </div>
                 </div>
             </div>
