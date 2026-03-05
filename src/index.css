@@ -1,4 +1,4 @@
-/* .leftpage {
+.leftpage {
     width: 60%;
 }
 
@@ -60,7 +60,6 @@
 
 .logo {
     padding: 5px;
-    ;
 }
 
 .logo .google {
@@ -124,4 +123,4 @@
     flex-direction: column;
     line-height: 0px;
     align-items: center;
-} */
+}

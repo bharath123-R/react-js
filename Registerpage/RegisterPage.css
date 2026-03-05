@@ -9,24 +9,24 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.left {
+.regleft {
     width: 45%;
 
 }
-.right h1{
+.regright h1{
     color: white;
 }
-.right h4{
+.regright h4{
     color: white;
 }
-.btn{
+.btn1{
     background-color: rgb(20, 159, 7);
     color: white;
     height: 35px;
     font-size: medium;
 }
 
-.left img {
+.regleft img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -36,13 +36,13 @@ body {
     justify-content: center;
 }
 
-.right {
+.regright {
     width: 55%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #5a3358;
+    background: #1b7455;
 }
 
 .input-field {
@@ -53,7 +53,7 @@ body {
     margin-bottom: 15px;
 }
 
-.icon {
+.icon1 {
     color: #999;
     margin-right: 10px;
 }
@@ -85,12 +85,12 @@ body {
     color: rgb(255, 255, 255);
     text-decoration: underline;
 }
-.social{
+.social1{
     display: flex;
     justify-content: center;
     gap: 15px;
 }
-.logo{
+.logo1{
     height: 40px;
     width: 40px;
     border-radius: 50%;

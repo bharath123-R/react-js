@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaFacebookF, FaGoogle, FaUser, FaEnvelope, FaLock, FaEyeSlash } from 'react-icons/fa'
 import "./RegisterPage.css"
+import { Link } from 'react-router-dom'
 
 
 export default function RegisterPage() {
@@ -8,12 +9,12 @@ export default function RegisterPage() {
         <div >
             <div className="page">
 
-                <div className="left">
+                <div className="regleft">
                     <img src="Registerpage/gow.webp" alt="leftpage" />
                 </div>
 
 
-                <div className="right">
+                <div className="regright">
                     <h1>Register</h1>
 
 
@@ -23,20 +24,20 @@ export default function RegisterPage() {
                         <div className="form-box">
 
                             <div className='input-field'>
-                                <FaUser className='icon' />
+                                <FaUser className='icon1' />
                                 <input type="Name" placeholder=' Enter Full Name' />
                             </div>
 
                             <div className="input-field">
-                                <FaEnvelope className='icon' />
+                                <FaEnvelope className='icon1' />
                                 <input type="email" placeholder=' Email or Phone Number' />
                             </div>
                             <div className="input-field">
-                                <FaLock className='icon' />
+                                <FaLock className='icon1' />
                                 <input type="Password" placeholder=' Enter Password' />
                             </div>
                             <div className="input-field">
-                                <FaLock className='icon' />
+                                <FaLock className='icon1' />
                                 <input type="Password" placeholder=' Confirm Password' />
                                 <FaEyeSlash className='icon1' />
                             </div>
@@ -45,7 +46,7 @@ export default function RegisterPage() {
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, ducimus.
                             </label> <br />
                             <div className="button-box">
-                            <button className="btn">Submit</button>
+                            <button className="btn1">Submit</button>
                             </div>
                         </div>
 
@@ -53,16 +54,16 @@ export default function RegisterPage() {
                     </form>
                     <h4>Register with</h4>
 
-                    <div className="social">
-                        <div className="logo">
+                    <div className="social1">
+                        <div className="logo1">
                             <FaFacebookF />
                             
                         </div>
-                        <div className="logo"><FaGoogle /></div>
+                        <div className="logo1"><FaGoogle /></div>
                     </div>
 
                     <div>
-                        <h4>Already have an Account? <span className='Login-button'>Login</span></h4>
+                        <h4>Already have an Account? <span className='Login-button'><Link to="/">Login </Link></span></h4>
                         
                     </div>
                 </div>

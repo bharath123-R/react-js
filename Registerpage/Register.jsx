@@ -4,13 +4,13 @@ import RegisterPage from './RegisterPage'
 
 export default function Register() {
   return (
-    <BrowserRouter>
-    <Link to="/register">Register</Link>
-    <Routes>
-        <Route path='/register' element={<RegisterPage />}></Route>
-    </Routes>
+    // <BrowserRouter>
+    // <Link to="/register">Register</Link>
+    // <Routes>
+    //     <Route path='/register' element={<RegisterPage />}></Route>
+    // </Routes>
+    <RegisterPage />
 
-
-    </BrowserRouter>
+    // </BrowserRouter>
   )
 }

@@ -66,14 +66,13 @@ function App() {
         //     </div>
         // );
 
-        // <BrowserRouter>
-        //     <Link to="/login">Login</Link>
-        //     <Routes>
-        //         <Route path="/login" element={<Login />}></Route>
-        //     </Routes>
-        // </BrowserRouter>
-        // <Trylogin />
-<Register/>
+        <BrowserRouter>
+        <Routes>
+            <Route path="/" element= {<Login />}></Route>
+            <Route path="register" element={<Register />}></Route>
+        </Routes>
+        </BrowserRouter>
+
 
     );
 }
