@@ -18,7 +18,7 @@ export default function RegisterPage() {
                     <h1>Register</h1>
 
 
-
+        
 
                     <form >
                         <div className="form-box">
@@ -55,14 +55,11 @@ export default function RegisterPage() {
                     <h4>Register with</h4>
 
                     <div className="social1">
-                        <div className="logo1">
-                            <FaFacebookF />
-
-                        </div>
+                        <div className="logo1"><FaFacebookF /></div>
                         <div className="logo1"><FaGoogle /></div>
                     </div>
 
-                    <div>
+                    <div >
                         <h4>Already have an Account? <span className='Login-button'><Link to="/">Login </Link></span></h4>
 
                     </div>
