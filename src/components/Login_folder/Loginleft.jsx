@@ -4,6 +4,7 @@ import { FaGooglePlus } from "react-icons/fa";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { FaRegEye } from "react-icons/fa";
 import Logo from "../Login_folder/blogo.png"
+import { Link } from 'react-router-dom';
 
 export default function Loginleft() {
     return (
@@ -11,7 +12,7 @@ export default function Loginleft() {
             <div className='upper'>
                 <img src={Logo} alt="company logo" />
                 <h4 >My company</h4>
-            </div>  
+            </div>
             <div className='lower'>
                 <div className='login-text'>
                     <h1>Login to Your Account</h1>
@@ -27,7 +28,7 @@ export default function Loginleft() {
                     OR
                     <hr style={{ flex: 1 }} />
                 </div>
-                <div >
+                <div className='login-boox' >
                     <input type="text" className='ip' placeholder=' E-Mail' />
                     <br />
                     <div className='pwd'>
@@ -36,6 +37,16 @@ export default function Loginleft() {
                     </div>
                 </div>
                 <button className='btn'>Sign in</button>
+
+                <div className='mobile-view'>
+
+                    <h4 className='black-text'>New Here?</h4>
+                    <Link to="/register">
+                        <button className='btn-rm'>Sign Up</button>
+                    </Link>
+                </div>
+
+
             </div>
         </div>
     )

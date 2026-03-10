@@ -1,3 +1,14 @@
+
+body{
+    overflow-x: hidden ;
+}
+.login-box{
+    width: 90%;
+    max-width: 300px;
+    margin: auto;
+}
+
+
 .leftpage {
     width: 60%;
 }
@@ -9,6 +20,45 @@
 .rightpage {
     width: 40%;
     background: url("./components/Login_folder/pexels-pixabay-220072.jpg")
+}
+.mobile-view{
+    display: none;
+}
+
+@media(max-width: 786px){
+    .login{
+        flex-direction: column;
+    
+    }
+    .leftpage{
+        width: 100%;
+    }
+    .rightpage{
+        display: none;
+    }
+    .black-text{
+        color: black;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+.btn-rm {
+    width: 170px;
+    border-radius: 15px;
+    background-color: rgb(13, 168, 16);
+    color: white;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 0;
+}
+.mobile-view{
+    display: block;
+}
+
+
+
 }
 
 .left .upper {
@@ -81,6 +131,7 @@
     border-radius: 30px;
     background-color: aqua;
     margin-top: 10px;
+    color: rgb(0, 0, 0);
     width: 200px;
     height: 40px;
     border: none;
